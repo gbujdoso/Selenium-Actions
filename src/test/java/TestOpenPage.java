@@ -16,7 +16,7 @@ public class TestOpenPage {
 
         driver.get("http://hwsw.hu");
 
-        assertEquals("HWSW Informatikai Hírmagazin", driver.getTitle());
+        assertEquals("HWSW Informatikai HÃ­rmagazin", driver.getTitle());
          */
 
         WebDriverManager.chromedriver().setup();
@@ -24,7 +24,7 @@ public class TestOpenPage {
 
         driver.get("http://hwsw.hu");
 
-        assertEquals("HWSW Informatikai Hírmagazin", driver.getTitle());
+        assertEquals("HWSW Informatikai HÃ­rmagazin", driver.getTitle());
 
     }
 }
