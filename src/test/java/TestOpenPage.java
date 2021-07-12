@@ -14,6 +14,6 @@ public class TestOpenPage {
 
         driver.get("http://hwsw.hu");
 
-        assertEquals(" HWSW Informatikai HÃ­rmagazin ", driver.getTitle());
+        assertEquals("HWSW Informatikai Hírmagazin", driver.getTitle());
     }
 }
