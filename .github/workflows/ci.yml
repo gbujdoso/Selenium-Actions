@@ -23,9 +23,10 @@ jobs:
         distribution: 'adopt'
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
     - name: setup-chromedriver
       # You may pin to the exact commit or the version.
       # uses: nanasess/setup-chromedriver@835cae695490330a7e390033b2b5bd67e6f8055e
-      uses: nanasess/setup-chromedriver@v1.0.1
+      uses: nanasess/setup-chromedriver@v1.0.1      
+    - name: Build with Gradle
+      run: ./gradlew build
+
