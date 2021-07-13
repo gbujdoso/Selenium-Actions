@@ -5,6 +5,10 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+compileJava.options.encoding = 'ISO-8859-2'
+compileTestJava.options.encoding = 'ISO-8859-2'
+javadoc.options.encoding = 'ISO-8859-2'
+
 repositories {
     mavenCentral()
 }
