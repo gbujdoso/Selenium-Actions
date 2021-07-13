@@ -8,6 +8,11 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+# Trigger events
+#  schedule:
+#    - cron: '09 10 * * *'
+#  issue_comment:
+#   types: [created, edited, deleted]
 
 jobs:
   build:
